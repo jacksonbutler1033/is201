@@ -1,0 +1,19 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.diff-bg {
+    background-color: rgb(4, 4, 77) !important;
+}
+
+.text-primary {
+    color: rgb(0, 0, 0) !important;
+}
+
+a {
+    color: rgb(4, 4, 77);
+}
+
+a:hover {
+    
+}
