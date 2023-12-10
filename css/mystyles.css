@@ -15,5 +15,9 @@ a {
 }
 
 a:hover {
-    color: rgb(4, 4, 53);
+    color: rgb(77, 77, 77);
 }
+
+.social-icons .social-icon:hover {
+    background-color: rgb(4, 4, 77) !important;
+  }
