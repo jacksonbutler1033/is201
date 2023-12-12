@@ -1,11 +1,9 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: darkgray;
-    border: black;
+    background-color: rgb(203, 203, 203);
     display: block;
     /* margin: auto; */
     text-align: center;
-}
+font-family: 'Times New Roman', Times, serif;}
 
 h1 {
     text-align: center;
@@ -47,7 +45,7 @@ img{
 } */
 
 a:visited{
-    color: rgb(117, 117, 117);
+    color: white(117, 117, 117);
 }
 
 h3 {
@@ -69,7 +67,15 @@ h3 {
     z-index: 2;
     font-weight: bold;
     color: black;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer a {
+    color: black;
+}
+
+.footer a:visited {
+    color: grey;
 }
 
 .header {
@@ -78,6 +84,13 @@ h3 {
     text-align: right;
     font-size: x-large;
     padding-right: 1px;
+    color: aliceblue;
+}
+
+.header a { color: white; }
+
+.header a:visited {
+    color: grey;
 }
 
 .closefriend {
@@ -85,6 +98,25 @@ h3 {
     display: block;
     margin: auto;
     text-align: center;
-    color: aliceblue;
+    color: white;
 }
 
+.closefriend a {
+    color: black;
+}
+
+.closefriend a:visited {
+    color: grey;
+}
+
+.hobbies {
+    display: block;
+    margin: auto;
+    text-align: left;
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+ul {
+    list-style-type: circle
+  }
