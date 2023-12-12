@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(203, 203, 203);
+    background-color: rgb(169, 168, 168);
     display: block;
     /* margin: auto; */
     text-align: center;
@@ -18,14 +18,14 @@ h1 {
     text-align: center;
 }
 
-.lotr:hover {
+/* .lotr:hover {
     font-family: 'Courier New', Courier, monospace;
     text-decoration: line-through;
     font-size: 300%;
     background-color: black;
     color: aqua;
     border: solid black 10px;
-}
+} */
 
 img{
     display: block;
@@ -44,16 +44,17 @@ img{
     text-align: center;
 } */
 
-a:visited{
+/* a:visited{
     color: white(117, 117, 117);
-}
+} */
 
 h3 {
     color: black;
     margin: auto;
     display: block;
     text-align: center;
-    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
 }
 
 .footer {
@@ -87,10 +88,10 @@ h3 {
     color: aliceblue;
 }
 
-.header a { color: white; }
+.header a { color: rgb(0, 0, 0); }
 
 .header a:visited {
-    color: grey;
+    color: rgb(255, 255, 255);
 }
 
 .closefriend {
@@ -106,14 +107,14 @@ h3 {
 }
 
 .closefriend a:visited {
-    color: grey;
+    color: rgb(255, 255, 255);
 }
 
 .hobbies {
     display: block;
     margin: auto;
     text-align: left;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     font-size: x-large;
 }
 
