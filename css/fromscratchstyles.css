@@ -116,8 +116,5 @@ h3 {
     text-align: left;
     color: rgb(255, 255, 255);
     font-size: x-large;
+    list-style-type: disc;
 }
-
-ul {
-    list-style-type: circle
-  }
